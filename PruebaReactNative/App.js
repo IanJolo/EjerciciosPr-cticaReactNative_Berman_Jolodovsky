@@ -1,10 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View, Image } from 'react-native';
-import { useState } from 'react'; // <-- te faltaba importar esto
+import { useState } from 'react'; 
 
 export default function App() {
-  const [contador, setContador] = useState(0); // <-- corregido el nombre
-
+  const [contador, setContador] = useState(0); 
   return (
     <View style={styles.container}>
       <Text style={styles.txt}>Dale de comer 100 veces al mono para que se ponga feliz!</Text>
